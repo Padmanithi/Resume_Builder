@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+![simple resume_builder](https://github.com/user-attachments/assets/766c3242-c1e2-477c-889b-f3621c8779ce)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
