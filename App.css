@@ -1,0 +1,136 @@
+/* src/App.css */
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  color: #333;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  transition: border 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.4);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  padding: 12px 25px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+.resume-preview {
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-preview h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.resume-preview p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.resume-preview h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+/* Layout Adjustments */
+.form-container {
+  width: 45%;
+}
+
+.preview-container {
+  width: 50%;
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 1024px) {
+  .app {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .form-container, .preview-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .resume-preview {
+    padding: 20px;
+  }
+}
+
